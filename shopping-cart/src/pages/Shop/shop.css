@@ -1,0 +1,7 @@
+.product-items {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  grid-column-start: 1fr;
+  /* grid-column-end: 3; */
+  display: grid;
+}

@@ -1,0 +1,28 @@
+.itemList img {
+  width: 100%;
+  max-width: 200px;
+  object-fit: cover;
+}
+.itemList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(234, 234, 234);
+  border: 1px solid rgb(206, 206, 206);
+  margin: 24px;
+  padding: 24px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 1px 1px rgb(177, 177, 177);
+}
+button {
+  background: rgb(68, 193, 235);
+  padding: 12px;
+  display: inline-block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
